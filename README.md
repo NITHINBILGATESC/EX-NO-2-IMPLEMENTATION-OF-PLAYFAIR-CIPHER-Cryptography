@@ -1,11 +1,8 @@
 # EX-NO-2: IMPLEMENTATION OF PLAYFAIR CIPHER
 
- 
+ 333
 
 ## AIM:
- 
-
- 
 
 To write a C program to implement the Playfair Substitution technique.
 
@@ -74,7 +71,7 @@ void process(char str[], int mode) {
     for(int i=0; str[i]; i+=2) {
         find(str[i],&r1,&c1);
         find(str[i+1],&r2,&c2);
-
+M
         if(r1==r2) {
             str[i]=keyT[r1][(c1+mode+5)%5];
             str[i+1]=keyT[r2][(c2+mode+5)%5];
@@ -116,6 +113,7 @@ int main() {
 ## Output:
 
 
+ 
 
 ## Result:
 
